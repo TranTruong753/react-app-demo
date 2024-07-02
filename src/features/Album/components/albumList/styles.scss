@@ -1,0 +1,14 @@
+.listAlbum {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    overflow: hidden;
+    
+    // flex-wrap: wrap;
+    &__item {
+       width: 100%;
+       list-style-type: none;
+    }
+}
